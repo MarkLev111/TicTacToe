@@ -19,8 +19,8 @@ public class SignalRService {
     }
 
     public void connect(String baseIp, Listener listener) {
-        // Build hub URL: http://<ip>:8081/gamehub
-        final String url = "http://" + baseIp + ":8081/gamehub";
+        // Build hub URL: http://<ip>:80/gamehub
+        final String url = "http://" + baseIp + ":80/gamehub";
 
         // Dispose previous connection if exists
         if (connection != null) {

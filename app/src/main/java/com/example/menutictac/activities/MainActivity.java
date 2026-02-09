@@ -93,11 +93,11 @@ public class MainActivity extends AppCompatActivity {
         String ip = ipEdit.getText().toString().trim();
         if (ip.isEmpty()) {
             // Fall back to hint if empty
-            ip = ipEdit.getHint() != null ? ipEdit.getHint().toString() : "192.168.88.4";
+            ip = ipEdit.getHint() != null ? ipEdit.getHint().toString() : "109.226.44.197";
         }
 
         String finalIp = ip;
-        Toast.makeText(this, "Connecting to " + finalIp + ":8081", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Connecting to " + finalIp + ":80", Toast.LENGTH_SHORT).show();
         signalRService.connect(finalIp, new SignalRService.Listener() {
             @Override
             public void onConnected() {

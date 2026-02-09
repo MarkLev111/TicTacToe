@@ -17,7 +17,7 @@
             android:id="@+id/editServerIP"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
-            android:hint="192.168.88.4"
+            android:hint="109.226.44.197"
             android:inputType="text"
             android:importantForAutofill="no" />
 
