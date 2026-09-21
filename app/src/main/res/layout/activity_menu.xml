@@ -17,21 +17,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?attr/colorSurface"
-            android:theme="@style/ThemeOverlay.Material3.ActionBar"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
             app:title="@string/app_name" />
 
         <FrameLayout
             android:id="@+id/content_container"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1">
+            android:layout_height="0dp">
 
-            <TextView
-                android:id="@+id/menu_hint"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="@string/menu_hint" />
         </FrameLayout>
     </LinearLayout>
 
@@ -41,6 +34,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        app:menu="@menu/menu_drawer" />
+        app:menu="@menu/menu_drawer"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
 </androidx.drawerlayout.widget.DrawerLayout>
