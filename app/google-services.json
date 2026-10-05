@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "162874363133",
+    "firebase_url": "https://firstapp-84e0796d-default-rtdb.firebaseio.com",
+    "project_id": "firstapp-84e0796d",
+    "storage_bucket": "firstapp-84e0796d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162874363133:android:c63fe0baa45a1c68624294",
+        "android_client_info": {
+          "package_name": "com.example.menutictac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162874363133-mfsorq0qlv4j4rkgmkdhtqthongrcrqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAst9JsBDnSmLAmc69YrOnBju1LmwC3qFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162874363133-mfsorq0qlv4j4rkgmkdhtqthongrcrqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
